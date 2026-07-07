@@ -83,7 +83,7 @@ export default function Hero() {
           <div className="relative max-w-xl mx-auto md:max-w-none text-center md:text-left flex flex-col-reverse md:flex-row items-center gap-12 md:gap-8">
             {/* Content Left */}
             <div className="md:w-1/2 flex flex-col">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-cabinet-grotesk mb-6 text-gray-900 leading-tight">
+              <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold font-cabinet-grotesk mb-6 text-gray-900 leading-tight">
                 CREATING A WORLD OF{' '}
                 <span className="relative inline-flex min-w-[200px] justify-center md:justify-start">
                   <span className={`inline-block transition-all duration-300 transform ${isWordFading ? 'opacity-0 translate-y-2 scale-95' : 'opacity-100 translate-y-0 scale-100'} ${WORDS[wordIndex].color}`}>
@@ -104,7 +104,7 @@ export default function Hero() {
                   </svg>
                 </span>
               </h1>
-              
+
               <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
                 WHERE EVERY GIRL CHILD KNOWS SHE HAS THE RIGHT TO DREAM AND LIVE A FULFILLING LIFE.
               </p>
@@ -114,38 +114,38 @@ export default function Hero() {
                 <Link className="btn text-white bg-purple-600 hover:bg-purple-700 shadow-md hover:shadow-lg hover:shadow-purple-500/20 active:scale-98 transition-all px-8 py-3 rounded-xl font-semibold flex items-center justify-center gap-2" href="/donate">
                   <span>DONATE NOW</span>
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                   </svg>
                 </Link>
                 <Link className="btn text-purple-700 bg-purple-50 hover:bg-purple-100/80 active:scale-98 transition-all px-8 py-3 rounded-xl font-semibold border border-purple-200/60 shadow-sm flex items-center justify-center gap-2" href="/get-involved">
                   <span>BECOME A VOLUNTEER</span>
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z" />
                   </svg>
                 </Link>
               </div>
 
               {/* Dream Catalyst Widget */}
-              <div 
+              <div
                 className="p-5 rounded-2xl bg-white/50 backdrop-blur-md border border-white/40 shadow-lg max-w-md mx-auto md:mx-0 relative overflow-hidden group/dream transition-all hover:bg-white/70 hover:border-purple-200/50 hover:shadow-xl"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 {/* Micro-sparkle glow */}
                 <div className="absolute -right-12 -top-12 w-24 h-24 bg-gradient-to-br from-yellow-200/30 to-purple-200/30 rounded-full filter blur-xl group-hover/dream:scale-125 transition-transform pointer-events-none" />
-                
+
                 <div className="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
                   <div className="flex items-center gap-1.5 mb-2.5">
                     <span className="animate-bounce text-base">✨</span>
                     <span className="text-xs font-bold tracking-wider text-purple-600 uppercase">Hear a Girl's Dream</span>
                   </div>
-                  
+
                   <div className="min-h-[72px] flex items-center w-full">
                     <p className={`text-gray-700 italic font-medium transition-all duration-300 transform leading-relaxed text-sm sm:text-base ${isDreamChanging ? 'opacity-0 scale-98 translate-y-1' : 'opacity-100 scale-100 translate-y-0'}`}>
                       {DREAMS_LIST[dreamIndex]}
                     </p>
                   </div>
-                  
+
                   <button
                     onClick={handleSparkDream}
                     className="mt-3.5 flex items-center gap-1.5 px-4 py-2 rounded-xl bg-purple-600 text-white font-semibold text-xs hover:bg-purple-700 active:scale-95 shadow-sm hover:shadow transition-all"
@@ -158,9 +158,9 @@ export default function Hero() {
 
             {/* Photos & Animations Right */}
             <div className="md:w-1/2 relative mt-12 md:mt-0 flex justify-center items-center min-h-[420px] md:min-h-[500px] w-full">
-              
+
               {/* Main Image: Stablehand & Horsemanship */}
-              <div 
+              <div
                 className="absolute w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] md:w-[360px] md:h-[360px] rounded-[3rem] overflow-hidden shadow-2xl z-20 border-8 border-white group cursor-pointer transition-all duration-500 hover:scale-[1.02] hover:shadow-purple-200/60"
                 data-aos="zoom-y-out"
                 data-aos-delay="400"
@@ -172,9 +172,9 @@ export default function Hero() {
                   </span>
                 </div>
               </div>
-              
+
               {/* Floating Image 1: STEM */}
-              <div 
+              <div
                 className="absolute -top-6 right-2 sm:right-6 md:-right-4 w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-full overflow-hidden shadow-xl z-30 border-4 border-white animate-float-slow group cursor-pointer transition-all duration-300 hover:scale-105 hover:rotate-3"
                 data-aos="fade-down-left"
                 data-aos-delay="600"
@@ -186,9 +186,9 @@ export default function Hero() {
                   </span>
                 </div>
               </div>
-              
+
               {/* Floating Image 2: Football */}
-              <div 
+              <div
                 className="absolute -bottom-8 left-2 sm:left-6 md:-left-4 w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-2xl overflow-hidden shadow-xl z-30 border-4 border-white animate-float-medium group cursor-pointer transition-all duration-300 hover:scale-105 hover:-rotate-3"
                 data-aos="fade-up-right"
                 data-aos-delay="700"
@@ -202,7 +202,7 @@ export default function Hero() {
               </div>
 
               {/* Floating Image 3: Basketball */}
-              <div 
+              <div
                 className="absolute top-6 left-0 sm:left-4 w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-lg z-10 border-4 border-white animate-float-slow group cursor-pointer transition-all duration-300 hover:scale-105 hover:rotate-6"
                 data-aos="zoom-in"
                 data-aos-delay="800"
@@ -214,7 +214,7 @@ export default function Hero() {
                   </span>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
