@@ -83,7 +83,7 @@ export default function Hero() {
           <div className="relative max-w-xl mx-auto md:max-w-none text-center md:text-left flex flex-col-reverse md:flex-row items-center gap-12 md:gap-8">
             {/* Content Left */}
             <div className="md:w-1/2 flex flex-col">
-              <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold font-cabinet-grotesk mb-6 text-gray-900 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold font-cabinet-grotesk mb-6 text-gray-900 leading-tight">
                 CREATING A WORLD OF{' '}
                 <span className="relative inline-flex min-w-[200px] justify-center md:justify-start">
                   <span className={`inline-block transition-all duration-300 transform ${isWordFading ? 'opacity-0 translate-y-2 scale-95' : 'opacity-100 translate-y-0 scale-100'} ${WORDS[wordIndex].color}`}>
