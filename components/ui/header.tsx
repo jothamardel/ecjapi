@@ -68,9 +68,9 @@ export default function Header({ nav = true }: {
 
           {/* Mobile menu toggle */}
           {nav && (
-            <div className="flex md:hidden">
+            <div className="flex md:hidden ml-auto">
               <button
-                className={`hamburger z-50 p-2 text-gray-600 hover:text-purple-600 transition-colors focus:outline-none`}
+                className={`hamburger z-50 p-2 pr-0 text-gray-600 hover:text-purple-600 transition-colors focus:outline-none`}
                 aria-controls="mobile-nav"
                 aria-expanded={mobileNavOpen}
                 onClick={() => setMobileNavOpen(!mobileNavOpen)}
