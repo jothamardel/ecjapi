@@ -36,6 +36,22 @@ export default function Header({ nav = true }: {
                 <li>
                   <Link
                     className="font-medium text-gray-600 decoration-purple-500 decoration-2 underline-offset-2 hover:underline px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                    href="/padded-girl"
+                  >
+                    Padded Girl Program
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="font-medium text-gray-600 decoration-purple-500 decoration-2 underline-offset-2 hover:underline px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                    href="/gallery"
+                  >
+                    Gallery
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="font-medium text-gray-600 decoration-purple-500 decoration-2 underline-offset-2 hover:underline px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                     href="/#ourstory"
                   >
                     Our Story
@@ -131,6 +147,24 @@ export default function Header({ nav = true }: {
                       onClick={() => setMobileNavOpen(false)}
                     >
                       About Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="flex font-semibold text-gray-700 hover:text-purple-600 text-lg py-1 transition duration-150 ease-in-out"
+                      href="/padded-girl"
+                      onClick={() => setMobileNavOpen(false)}
+                    >
+                      Padded Girl Program
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="flex font-semibold text-gray-700 hover:text-purple-600 text-lg py-1 transition duration-150 ease-in-out"
+                      href="/gallery"
+                      onClick={() => setMobileNavOpen(false)}
+                    >
+                      Gallery
                     </Link>
                   </li>
                   <li>

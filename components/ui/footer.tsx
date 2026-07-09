@@ -68,6 +68,12 @@ export default function Footer() {
               <Link className="text-gray-500 decoration-purple-500 decoration-2 underline-offset-2 hover:underline" href="/about-us">
                 About Us
               </Link>
+              <Link className="text-gray-500 decoration-purple-500 decoration-2 underline-offset-2 hover:underline" href="/padded-girl">
+                Padded Girl Program
+              </Link>
+              <Link className="text-gray-500 decoration-purple-500 decoration-2 underline-offset-2 hover:underline" href="/gallery">
+                Gallery
+              </Link>
               <Link className="text-gray-500 decoration-purple-500 decoration-2 underline-offset-2 hover:underline" href="/get-involved">
                 Get Involved
               </Link>

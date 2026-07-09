@@ -38,8 +38,11 @@ export default function OurStory() {
               <p className="text-gray-600 mb-4">
                 We empower young girls through reproductive health education, teaching them about their bodies, consent, and healthy choices, alongside sports and skill acquisition.
               </p>
-              <div className="mt-8">
-                <Link className="btn text-white bg-purple-500 hover:bg-purple-600 shadow-sm" href="/about-us">
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Link className="btn text-white bg-purple-500 hover:bg-purple-600 shadow-sm" href="/padded-girl">
+                  Explore Padded Girl Program
+                </Link>
+                <Link className="btn text-purple-600 bg-purple-50 hover:bg-purple-100 shadow-sm" href="/about-us">
                   Learn More About Us
                 </Link>
               </div>
