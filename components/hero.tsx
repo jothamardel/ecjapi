@@ -173,16 +173,16 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating Image 1: Stablehands Lunch */}
+              {/* Floating Image 1: How It Began */}
               <div
                 className="absolute -top-6 right-2 sm:right-6 md:-right-4 w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-full overflow-hidden shadow-xl z-30 border-4 border-white animate-float-slow group cursor-pointer transition-all duration-300 hover:scale-105 hover:rotate-3"
                 data-aos="fade-down-left"
                 data-aos-delay="600"
               >
-                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.40.jpeg" fill className="object-cover" alt="Stablehands Lunch" />
+                <Image src="/how_the_story_began/WhatsApp Image 2026-07-08 at 11.10.14.jpeg" fill className="object-cover" alt="How It Began" />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3 text-center">
                   <span className="text-white text-xs font-bold backdrop-blur-sm bg-indigo-950/40 border border-white/10 px-2.5 py-1 rounded-full shadow-sm">
-                    🍽️ Stablehands Lunch
+                    📜 How It Began
                   </span>
                 </div>
               </div>
@@ -201,16 +201,16 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating Image 3: Mentorship */}
+              {/* Floating Image 3: Early Workshops */}
               <div
                 className="absolute top-6 left-0 sm:left-4 w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-lg z-10 border-4 border-white animate-float-slow group cursor-pointer transition-all duration-300 hover:scale-105 hover:rotate-6"
                 data-aos="zoom-in"
                 data-aos-delay="800"
               >
-                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.44.jpeg" fill className="object-cover" alt="Mentorship Outreach" />
+                <Image src="/how_the_story_began/WhatsApp Image 2026-07-08 at 11.10.36.jpeg" fill className="object-cover" alt="Early Workshops" />
                 <div className="absolute inset-0 bg-gradient-to-t from-amber-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-2 text-center">
                   <span className="text-white text-[10px] font-bold backdrop-blur-sm bg-amber-950/40 border border-white/10 px-2 py-0.5 rounded-full shadow-sm">
-                    👩‍👩‍👧 Mentorship
+                    ✨ Early Workshops
                   </span>
                 </div>
               </div>

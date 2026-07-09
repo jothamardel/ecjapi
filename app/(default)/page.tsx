@@ -5,6 +5,7 @@ export const metadata = {
 
 import Hero from '@/components/hero'
 import OurStory from '@/components/our-story'
+import HowItStarted from '@/components/how-it-started'
 import Activities from '@/components/activities'
 import Team from '@/components/team'
 import Cta from '@/components/cta'
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <Hero />
       <OurStory />
+      <HowItStarted />
       <Activities />
       <Team />
       <Cta />
