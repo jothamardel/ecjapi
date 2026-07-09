@@ -179,7 +179,7 @@ export default function Hero() {
                 data-aos="fade-down-left"
                 data-aos-delay="600"
               >
-                <Image src="/how_the_story_began/WhatsApp Image 2026-07-08 at 11.10.14.jpeg" fill className="object-cover" alt="How It Began" />
+                <Image src="/jen/WhatsApp Image 2026-07-09 at 07.21.51.jpeg" fill className="object-cover" alt="How It Began" />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3 text-center">
                   <span className="text-white text-xs font-bold backdrop-blur-sm bg-indigo-950/40 border border-white/10 px-2.5 py-1 rounded-full shadow-sm">
                     📜 How It Began
@@ -193,7 +193,7 @@ export default function Hero() {
                 data-aos="fade-up-right"
                 data-aos-delay="700"
               >
-                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.42.jpeg" fill className="object-cover" alt="Equestrian Skills" />
+                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.14.33.jpeg" fill className="object-cover" alt="Equestrian Skills" />
                 <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3 text-center">
                   <span className="text-white text-xs font-bold backdrop-blur-sm bg-emerald-950/40 border border-white/10 px-2.5 py-1 rounded-full shadow-sm">
                     🐴 Horsemanship
@@ -207,7 +207,7 @@ export default function Hero() {
                 data-aos="zoom-in"
                 data-aos-delay="800"
               >
-                <Image src="/how_the_story_began/WhatsApp Image 2026-07-08 at 11.10.36.jpeg" fill className="object-cover" alt="Early Workshops" />
+                <Image src="/how_the_story_began/WhatsApp Image 2026-07-08 at 11.10.16 (1).jpeg" fill className="object-cover" alt="Early Workshops" />
                 <div className="absolute inset-0 bg-gradient-to-t from-amber-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-2 text-center">
                   <span className="text-white text-[10px] font-bold backdrop-blur-sm bg-amber-950/40 border border-white/10 px-2 py-0.5 rounded-full shadow-sm">
                     ✨ Early Workshops

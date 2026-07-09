@@ -34,6 +34,16 @@ export default function Header({ nav = true }: {
                   </Link>
                 </li>
                 <li>
+                  <div className="relative group px-3 lg:px-5 py-2 flex items-center select-none cursor-not-allowed">
+                    <span className="font-medium text-gray-400 transition duration-150 ease-in-out flex items-center gap-1.5">
+                      Tribe of Vashti
+                      <span className="text-[9px] font-extrabold uppercase tracking-wider px-1.5 py-0.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full scale-95 origin-left animate-pulse">
+                        Soon
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li>
                   <Link
                     className="font-medium text-gray-600 decoration-purple-500 decoration-2 underline-offset-2 hover:underline px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                     href="/padded-girl"
@@ -148,6 +158,16 @@ export default function Header({ nav = true }: {
                     >
                       About Us
                     </Link>
+                  </li>
+                  <li>
+                    <div className="flex items-center gap-2 py-1 select-none cursor-not-allowed pl-1">
+                      <span className="font-semibold text-gray-400 text-lg">
+                        Tribe of Vashti
+                      </span>
+                      <span className="text-[9px] font-extrabold uppercase tracking-wider px-1.5 py-0.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full animate-pulse">
+                        Soon
+                      </span>
+                    </div>
                   </li>
                   <li>
                     <Link
