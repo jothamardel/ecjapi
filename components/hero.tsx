@@ -173,44 +173,44 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating Image 1: STEM */}
+              {/* Floating Image 1: Stablehands Lunch */}
               <div
                 className="absolute -top-6 right-2 sm:right-6 md:-right-4 w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-full overflow-hidden shadow-xl z-30 border-4 border-white animate-float-slow group cursor-pointer transition-all duration-300 hover:scale-105 hover:rotate-3"
                 data-aos="fade-down-left"
                 data-aos-delay="600"
               >
-                <Image src="/images/activity_stem.png" fill className="object-cover" alt="STEM Education" />
+                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.40.jpeg" fill className="object-cover" alt="Stablehands Lunch" />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3 text-center">
                   <span className="text-white text-xs font-bold backdrop-blur-sm bg-indigo-950/40 border border-white/10 px-2.5 py-1 rounded-full shadow-sm">
-                    🔬 STEM Prep
+                    🍽️ Stablehands Lunch
                   </span>
                 </div>
               </div>
 
-              {/* Floating Image 2: Football */}
+              {/* Floating Image 2: Horsemanship */}
               <div
                 className="absolute -bottom-8 left-2 sm:left-6 md:-left-4 w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-2xl overflow-hidden shadow-xl z-30 border-4 border-white animate-float-medium group cursor-pointer transition-all duration-300 hover:scale-105 hover:-rotate-3"
                 data-aos="fade-up-right"
                 data-aos-delay="700"
               >
-                <Image src="/images/activity_football.png" fill className="object-cover" alt="Football Activity" />
+                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.42.jpeg" fill className="object-cover" alt="Equestrian Skills" />
                 <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3 text-center">
                   <span className="text-white text-xs font-bold backdrop-blur-sm bg-emerald-950/40 border border-white/10 px-2.5 py-1 rounded-full shadow-sm">
-                    ⚽ Football Club
+                    🐴 Horsemanship
                   </span>
                 </div>
               </div>
 
-              {/* Floating Image 3: Basketball */}
+              {/* Floating Image 3: Mentorship */}
               <div
                 className="absolute top-6 left-0 sm:left-4 w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-lg z-10 border-4 border-white animate-float-slow group cursor-pointer transition-all duration-300 hover:scale-105 hover:rotate-6"
                 data-aos="zoom-in"
                 data-aos-delay="800"
               >
-                <Image src="/images/activity_basketball.png" fill className="object-cover" alt="Basketball Activity" />
+                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.44.jpeg" fill className="object-cover" alt="Mentorship Outreach" />
                 <div className="absolute inset-0 bg-gradient-to-t from-amber-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-2 text-center">
                   <span className="text-white text-[10px] font-bold backdrop-blur-sm bg-amber-950/40 border border-white/10 px-2 py-0.5 rounded-full shadow-sm">
-                    🏀 Basketball
+                    👩‍👩‍👧 Mentorship
                   </span>
                 </div>
               </div>

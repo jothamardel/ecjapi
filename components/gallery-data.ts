@@ -37,6 +37,14 @@ export const galleryEvents: GalleryEvent[] = [
     description: 'Launch of the official partnership and advocacy collaboration between ECJAPI and the Theological College of Northern Nigeria (TCNN) in Bukuru.'
   },
   {
+    id: 'first-time-lunch-stable-hands-2026',
+    title: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    description: 'Special luncheon, counseling, and reproductive wellness mentorship session organized for female stable hands.'
+  },
+  {
     id: 'padded-girl-campaign-2026',
     title: 'De-Stigmatizing Menstrual Development, Dismantles Rape Culture Campaign',
     date: 'May 28, 2026',
@@ -45,28 +53,12 @@ export const galleryEvents: GalleryEvent[] = [
     description: 'Signature week-long awareness program led by Jennifer Nikurai Maton (Founder, ECJAPI) and Felicia Samson (TVAII).'
   },
   {
-    id: 'crisis-home-outreach-2025',
-    title: 'Christian Faith Crisis Home Visit',
-    date: 'May 28, 2025',
-    year: 2025,
-    location: 'Plateau State, Nigeria',
-    description: 'Demonstrating and distributing biodegradable ZenaPads to young girls at the crisis home.'
-  },
-  {
-    id: 'boy-child-friendship-2025',
-    title: 'Grassroot Boy Child Friendship Seminar',
-    date: 'October 11, 2025',
-    year: 2025,
-    location: 'TCNN Bukuru',
-    description: 'Joint awareness campaign in partnership with Let\'s Grow Together Initiative (LGTI) on healthy boundaries and friendships.'
-  },
-  {
-    id: 'padded-girl-launch-2024',
-    title: 'Initial Padded Girl Launch & Sports Clinic',
-    date: 'May 28, 2024',
+    id: 'how-the-story-began-2024',
+    title: 'How the Story Began',
+    date: 'May 2024',
     year: 2024,
-    location: 'Bukuru Playground',
-    description: 'Launching the Padded Girl program, combining sports (football/basketball) and reproductive health education.'
+    location: 'Bukuru, Plateau State',
+    description: 'Tracing the initial community workshops, group meetings, and grassroots advocacy circles that started ECJAPI.'
   }
 ];
 
@@ -845,6 +837,140 @@ export const galleryImages: GalleryImage[] = [
     aspectRatio: 'landscape'
   },
 
+  // 1.2 First Time Lunch - Female Stable Hands (July 2026) - Local Images
+  {
+    id: 'sh-1',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.37.jpeg',
+    alt: 'Group portrait of the female stable hands during the lunch program',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-2',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.38.jpeg',
+    alt: 'Mentors discussing biological health education with attendees',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-3',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.39.jpeg',
+    alt: 'Attendees sharing experiences and challenges faced in stable roles',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-4',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.40.jpeg',
+    alt: 'Providing lunch boxes and care kits to the girls',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-5',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.42.jpeg',
+    alt: 'Interactive safety boundaries seminar session',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-6',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.43.jpeg',
+    alt: 'Speakers presenting consent models to stable workers',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-7',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.44.jpeg',
+    alt: 'Female stable hands laughing and sharing happy moments',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-8',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.45.jpeg',
+    alt: 'Outreach coordinators distributing hygienic resources',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-9',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.46.jpeg',
+    alt: 'Mentoring circles answering health questions',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-10',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.47.jpeg',
+    alt: 'Female stable hands during self-esteem and values talks',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-11',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.48.jpeg',
+    alt: 'A volunteer scientist discussing menstrual hygiene cycles',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'sh-12',
+    src: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp%20Image%202026-07-08%20at%2011.13.50.jpeg',
+    alt: 'Group discussion and lunch overview session',
+    eventId: 'first-time-lunch-stable-hands-2026',
+    eventTitle: 'First Time Lunch - Female Stable Hands',
+    date: 'July 8, 2026',
+    year: 2026,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+
   // 2. World Menstrual Health Day Campaign (May 2026) - Local Images
   {
     id: 'limg-1',
@@ -935,64 +1061,115 @@ export const galleryImages: GalleryImage[] = [
     aspectRatio: 'landscape'
   },
 
-  // 3. Christian Faith Crisis Home Visit (2025)
+  // 3. How the Story Began (2024) - Local Images
   {
-    id: 'hist-2025-1',
-    src: '/images/blog-01.jpg',
-    alt: 'ZenaPads biodegradable sanitary pad demonstration session',
-    eventId: 'crisis-home-outreach-2025',
-    eventTitle: 'Christian Faith Crisis Home Visit',
-    date: 'May 28, 2025',
-    year: 2025,
-    location: 'Plateau State, Nigeria',
-    aspectRatio: 'landscape'
-  },
-  {
-    id: 'hist-2025-2',
-    src: '/images/blog-02.jpg',
-    alt: 'Interactive workshop on reproductive education with young girls',
-    eventId: 'crisis-home-outreach-2025',
-    eventTitle: 'Christian Faith Crisis Home Visit',
-    date: 'May 28, 2025',
-    year: 2025,
-    location: 'Plateau State, Nigeria',
-    aspectRatio: 'landscape'
-  },
-
-  // 4. Grassroot Boy Child Friendship Seminar (2025)
-  {
-    id: 'hist-2025-3',
-    src: '/images/blog-03.jpg',
-    alt: 'Boy child friendship seminar led by Let\'s Grow Together Initiative',
-    eventId: 'boy-child-friendship-2025',
-    eventTitle: 'Grassroot Boy Child Friendship Seminar',
-    date: 'October 11, 2025',
-    year: 2025,
-    location: 'TCNN Bukuru',
-    aspectRatio: 'landscape'
-  },
-
-  // 5. Initial Padded Girl Launch & Sports Clinic (2024)
-  {
-    id: 'hist-2024-1',
-    src: '/images/activity_football.png',
-    alt: 'Girls playing football during the Padded Girl sports clinic launch',
-    eventId: 'padded-girl-launch-2024',
-    eventTitle: 'Initial Padded Girl Launch & Sports Clinic',
-    date: 'May 28, 2024',
+    id: 'story-1',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.14.jpeg',
+    alt: 'The initial grassroots seminar presenting the initiative',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
     year: 2024,
-    location: 'Bukuru Playground',
+    location: 'Bukuru, Plateau State',
     aspectRatio: 'landscape'
   },
   {
-    id: 'hist-2024-2',
-    src: '/images/activity_basketball.png',
-    alt: 'Basketball training and self-esteem workshop',
-    eventId: 'padded-girl-launch-2024',
-    eventTitle: 'Initial Padded Girl Launch & Sports Clinic',
-    date: 'May 28, 2024',
+    id: 'story-2',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.16.jpeg',
+    alt: 'First group of girls attending the counseling workshop',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
     year: 2024,
-    location: 'Bukuru Playground',
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-3',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.17%20(1).jpeg',
+    alt: 'Advocacy circle discussing girl child education rights',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-4',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.17.jpeg',
+    alt: 'Organizing the very first sanitary resource distributions',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-5',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.35.jpeg',
+    alt: 'Community leaders and volunteers gather for initial launch',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-6',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.36.jpeg',
+    alt: 'Students smiling during the inaugural self-worth workshop',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-7',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.37%20(1).jpeg',
+    alt: 'Interactive discussion on child abuse prevention protocols',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-8',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.37%20(2).jpeg',
+    alt: 'Our founders posing with the first seminar attendees',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-9',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.10.54.jpeg',
+    alt: 'Inaugural workshop banner group shot',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'story-10',
+    src: '/how_the_story_began/WhatsApp%20Image%202026-07-08%20at%2011.11.26.jpeg',
+    alt: 'Group portrait commemorating the launch of ECJAPI',
+    eventId: 'how-the-story-began-2024',
+    eventTitle: 'How the Story Began',
+    date: 'May 2024',
+    year: 2024,
+    location: 'Bukuru, Plateau State',
     aspectRatio: 'landscape'
   }
 ];

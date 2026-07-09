@@ -5,25 +5,25 @@ export default function Activities() {
     {
       title: 'Stablehand & Horsemanship',
       description: 'Building confidence and empathy through equestrian activities.',
-      image: '/images/hero_horse_girl.png',
+      image: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.37.jpeg',
       color: 'text-yellow-500'
     },
     {
       title: 'Football',
       description: 'Fostering teamwork, physical fitness, and leadership skills on the field.',
-      image: '/images/activity_football.png',
+      image: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.40.jpeg',
       color: 'text-red-500'
     },
     {
       title: 'Basketball',
       description: 'Encouraging discipline, strategic thinking, and athletic excellence.',
-      image: '/images/activity_basketball.png',
+      image: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.42.jpeg',
       color: 'text-orange-500'
     },
     {
       title: 'STEM Education',
       description: 'Equipping girls with modern technical skills in science and technology.',
-      image: '/images/activity_stem.png',
+      image: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.43.jpeg',
       color: 'text-sky-500'
     },
   ]
