@@ -18,7 +18,7 @@ export default function OurStory() {
               </span>
             </h2>
             <p className="text-xl text-gray-500">
-              The EmpowHer Choices Preg-Prevent Initiative (PPI) is a Girl-Child advocacy body set up to speak out against adolescent pregnancy and support the empowerment of young girls.
+              The EmpowHer Choices Juvenile Abuse Prevention Initiative (ECJAPI) is a Girl-Child advocacy body set up to speak out against adolescent pregnancy and support the empowerment of young girls.
             </p>
           </div>
           {/* Content */}

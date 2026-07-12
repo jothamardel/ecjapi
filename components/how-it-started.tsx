@@ -48,7 +48,7 @@ export default function HowItStarted() {
             </div>
             
             <p className="text-gray-600 leading-relaxed text-lg">
-              EmpowHer Choices Preg-Prevent Initiative began as a direct response to rising adolescent exploitation and adolescent pregnancy inBukuru, Plateau State. What started as small, passionate discussions among a few local change-makers quickly evolved into a dedicated advocacy framework.
+              EmpowHer Choices Juvenile Abuse Prevention Initiative began as a direct response to rising adolescent exploitation and adolescent pregnancy inBukuru, Plateau State. What started as small, passionate discussions among a few local change-makers quickly evolved into a dedicated advocacy framework.
             </p>
 
             {/* Micro Timeline */}

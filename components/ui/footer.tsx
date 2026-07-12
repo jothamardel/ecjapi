@@ -86,7 +86,7 @@ export default function Footer() {
           <div className="text-xs text-gray-400 text-center md:text-left">
             <p className="mb-2"><strong>Address:</strong> No.10 Akila Machunga Street, Behind National Library Jos, Plateau State, Nigeria.</p>
             <p className="mb-2"><strong>Phone:</strong> +2348123652599 | <strong>Email:</strong> info@ecjapi.org</p>
-            <p>&copy; {new Date().getFullYear()} EmpowHer Choices Preg-Prevent Initiative. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} EmpowHer Choices Juvenile Abuse Prevention Initiative. All rights reserved.</p>
           </div>
         </div>
       </div>
