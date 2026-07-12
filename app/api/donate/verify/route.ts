@@ -14,7 +14,26 @@ export async function GET(request: NextRequest) {
   }
 
   const paystackSecret = process.env.PAYSTACK_SECRET_KEY;
-  if (!paystackSecret) {
+  const isPlaceholderKey = !paystackSecret || paystackSecret.startsWith('sk_test_xxx');
+
+  if (isPlaceholderKey) {
+    // In development mode, allow mock verification so the UI flow can be fully tested without real keys
+    if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test' || !process.env.NODE_ENV) {
+      console.warn('[Paystack] PAYSTACK_SECRET_KEY is missing or placeholder. Using mock verification for testing.');
+      return NextResponse.json({
+        success: true,
+        message: 'Mock payment verified successfully (Sandbox Mode).',
+        data: {
+          reference: reference,
+          amount: 5000, // mock amount
+          currency: 'NGN',
+          customer: { email: 'donor@example.com' },
+          metadata: { custom_fields: [] },
+          paidAt: new Date().toISOString(),
+        },
+      });
+    }
+
     console.error('PAYSTACK_SECRET_KEY is not configured in the environment.');
     return NextResponse.json(
       { success: false, message: 'Payment verification is currently misconfigured.' },

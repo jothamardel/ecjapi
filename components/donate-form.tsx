@@ -117,8 +117,8 @@ export default function DonateForm() {
             if (verifyData.success) {
               setTransactionData({
                 reference: verifyData.data.reference,
-                amount: verifyData.data.amount,
-                paidAt: verifyData.data.paidAt,
+                amount: verifyData.data.amount || Number(amount),
+                paidAt: verifyData.data.paidAt || new Date().toISOString(),
               });
               setPaymentStatus('success');
             } else {
