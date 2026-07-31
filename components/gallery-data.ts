@@ -53,6 +53,14 @@ export const galleryEvents: GalleryEvent[] = [
     description: 'Signature week-long awareness program led by Jennifer Nikurai Maton (Founder, ECJAPI) and Felicia Samson (TVAII).'
   },
   {
+    id: 'horsemanship-closing-ceremony-2025',
+    title: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    description: "Nigeria's first ever Female Stablehand & Horsemanship Training Program closing ceremony & fundraiser. Celebrated with Nigeria's first ever ALL-FEMALE Polo game between Amazonian Reins and Rein Rebels, featuring women in all roles from commentators to bouncers."
+  },
+  {
     id: 'how-the-story-began-2024',
     title: 'How the Story Began',
     date: 'May 2024',
@@ -1851,6 +1859,204 @@ export const galleryImages: GalleryImage[] = [
     date: 'May 2024',
     year: 2024,
     location: 'Bukuru, Plateau State',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-1',
+    src: '/new_stills/rawuta_instagram.jpg',
+    alt: "Ms. Rawuta Bishara, certified female stablehand and horsemanship program graduate, in frame",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'portrait'
+  },
+  {
+    id: 'horsemanship-still-2',
+    src: '/new_stills/WhatsApp%20Image%202026-07-13%20at%2023.19.41.jpeg',
+    alt: "Seasoned and newly scouted female polo players from across Nigeria gathered for the groundbreaking showcase",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-3',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.05%20%289%29.jpeg',
+    alt: "Amazonian Reins vs Rein Rebels - Nigeria's first ever All-Female Polo game match action",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-4',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.29%20%2814%29.jpeg',
+    alt: "Official presentation of the Rein Rebels team, representing the Equestrian League for ECJAPI",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'portrait'
+  },
+  {
+    id: 'horsemanship-still-5',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.29%20%2822%29.jpeg',
+    alt: "All-female commentators and MCs guiding the closing ceremony and fundraiser",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-6',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.29%20%2830%29.jpeg',
+    alt: "Female stablehand training graduates preparing the horses before the exhibition game",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-7',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.29.jpeg',
+    alt: "Flag bearers leading the parade during the opening of the All-Female Sports & Service Showcase",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'portrait'
+  },
+  {
+    id: 'horsemanship-still-8',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2817%29.jpeg',
+    alt: "Umpire and match coordinators, all female, preparing for the historic polo match kickoff",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-9',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2825%29.jpeg',
+    alt: "Amazonian Reins team riders strategic planning session before the game",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-10',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2833%29.jpeg',
+    alt: "Crowd and guests supporting the Female Stablehand & Horsemanship Training fundraiser",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'portrait'
+  },
+  {
+    id: 'horsemanship-still-11',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2841%29.jpeg',
+    alt: "Certified female stablehands demonstrating grooming techniques during the ceremony",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-12',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%285%29.jpeg',
+    alt: "Action shot of the Rein Rebels attacking during the All-Female Polo Game",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-13',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2858%29.jpeg',
+    alt: "Certified stablehand check-ups and equestrian care demonstration at the closing showcase",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'portrait'
+  },
+  {
+    id: 'horsemanship-still-14',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2866%29.jpeg',
+    alt: "Polo players from the Amazonian Reins showcasing high-energy equestrian skills",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-15',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2874%29.jpeg',
+    alt: "All-female bouncers and security team managing the fundraiser event venue",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-16',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2882%29.jpeg',
+    alt: "Founder Nikurai Jennifer Maton alongside newly trained stablehands and polo players",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'portrait'
+  },
+  {
+    id: 'horsemanship-still-17',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2890%29.jpeg',
+    alt: "Fundraiser event coordinators celebrating the completion of Nigeria's first ever Female Stablehand program",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
+    aspectRatio: 'landscape'
+  },
+  {
+    id: 'horsemanship-still-18',
+    src: '/new_stills/WhatsApp%20Image%202026-07-14%20at%2010.17.30%20%2899%29.jpeg',
+    alt: "Group photo of the Amazonian Reins and Rein Rebels teams post-match",
+    eventId: 'horsemanship-closing-ceremony-2025',
+    eventTitle: 'Stablehand & Horsemanship Closing Ceremony & Fundraiser',
+    date: 'January 9-11, 2025',
+    year: 2025,
+    location: 'Plateau State, Nigeria',
     aspectRatio: 'landscape'
   }
 ];
