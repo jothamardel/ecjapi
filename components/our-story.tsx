@@ -18,7 +18,7 @@ export default function OurStory() {
               </span>
             </h2>
             <p className="text-xl text-gray-500">
-              The EmpowHer Choices Juvenile Abuse Prevention Initiative (ECJAPI) is a Girl-Child advocacy body set up to speak out against adolescent pregnancy and support the empowerment of young girls.
+              EmpowHer Choices Juvenile Abuse Prevention Initiative (ECJAPI) is a Girl-child advocacy organization, dedicated in speaking out against adolescent pregnancy & child marriage, through support programs for young girls in Sports, Skills Development, STEM, Stablehand Education & Horsemanship. We’ve created an ecosystem to see the Girl-Child thrive in safety & sisterhood.
             </p>
           </div>
           {/* Content */}

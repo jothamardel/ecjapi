@@ -5,7 +5,7 @@ export default function Activities() {
     {
       title: 'Stablehand & Horsemanship',
       description: 'Building confidence and empathy through equestrian activities.',
-      image: '/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.13.37.jpeg',
+      image: '/new_stills/rawuta_instagram.jpg',
       color: 'text-yellow-500'
     },
     {

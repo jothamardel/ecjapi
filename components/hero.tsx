@@ -165,7 +165,7 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="400"
               >
-                <Image src="/jen/empowher_choices.japi_1783442969965.jpeg" fill className="object-cover" alt="EmpowHer Choices Hero" priority />
+                <Image src="/new_stills/rawuta_instagram.jpg" fill className="object-cover" alt="EmpowHer Choices Hero" priority />
                 <div className="absolute inset-0 bg-gradient-to-t from-purple-950/80 via-purple-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6 text-center">
                   <span className="text-white text-xs sm:text-sm font-bold backdrop-blur-sm bg-purple-950/50 border border-white/10 px-4 py-1.5 rounded-full shadow-lg">
                     🐴 Stablehand & Horsemanship
@@ -193,7 +193,7 @@ export default function Hero() {
                 data-aos="fade-up-right"
                 data-aos-delay="700"
               >
-                <Image src="/first_time_lunch_female_stable_hands_in_nigeria/WhatsApp Image 2026-07-08 at 11.14.33.jpeg" fill className="object-cover" alt="Equestrian Skills" />
+                <Image src="/new_stills/rawuta_instagram.jpg" fill className="object-cover" alt="Equestrian Skills" />
                 <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-3 text-center">
                   <span className="text-white text-xs font-bold backdrop-blur-sm bg-emerald-950/40 border border-white/10 px-2.5 py-1 rounded-full shadow-sm">
                     🐴 Horsemanship

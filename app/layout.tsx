@@ -29,8 +29,8 @@ const cabinet = localFont({
 })
 
 export const metadata = {
-  title: 'EmpowHer Choices Juvenile Abuse Prevention Initiative',
-  description: 'Creating a world of freedom where every girl child knows she has the right to dream and live a fulfilling life.',
+  title: 'EmpowHer Choices Juvenile Abuse Prevention Initiative (ECJAPI)',
+  description: 'EmpowHer Choices Juvenile Abuse Prevention Initiative (ECJAPI) is a Girl-child advocacy organization, dedicated in speaking out against adolescent pregnancy & child marriage, through support programs for young girls.',
 }
 
 export default function RootLayout({

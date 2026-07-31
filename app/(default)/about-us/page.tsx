@@ -10,7 +10,7 @@ export default function AboutUs() {
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
           <h1 className="h1 font-cabinet-grotesk mb-4">About Us</h1>
           <p className="text-xl text-gray-500">
-            A Girl-Child advocacy body set up to speak out against adolescent pregnancy.
+            EmpowHer Choices Juvenile Abuse Prevention Initiative (ECJAPI) is a Girl-child advocacy organization, dedicated in speaking out against adolescent pregnancy & child marriage, through support programs for young girls in Sports, Skills Development, STEM, Stablehand Education & Horsemanship. We’ve created an ecosystem to see the Girl-Child thrive in safety & sisterhood.
           </p>
         </div>
         

@@ -17,22 +17,22 @@ export default function Team() {
       name: 'Salima Rabiu',
       role: 'Vice President',
       image: '/images/salima.jpg',
-      bio: ''
+      bio: `A DevOps Engineer, tech educator, and passionate advocate for women in tech. Beyond her technical expertise, she contributes to nonprofit initiatives, helping women in underrepresented communities break into tech.`
+    },
+    {
+      name: 'Rejoice Joel-Samuel (Esq)',
+      role: 'LEGAL/Administrative Secretary',
+      image: '/staff/rejoice.jpeg',
+      bio: `I am a dedicated legal practitioner with a passion for human rights, criminal justice and committed to delivering impactful advocacy to enhance access to justice for survivors/victims, particularly for the Vulnerable, underprivileged and underrepresented communities.`
     },
     {
       name: 'Alheri Moses Katuka',
-      role: 'Administrative Secretary',
+      role: 'Office Administrator',
       image: '/staff/alheri.jpeg',
       bio: `A dedicated educator, entrepreneur, and lifelong learner, passionate about empowering children, especially the girl child, through stewardship, mentorship, and service.
 I hold a Diploma in English and a Bachelor’s Degree in Christian Education—preparing to begin a Master’s degree in Administration & Planning.
 
-As the Administrative Secretary of EmpowHer Choices Juvenile Abuse Prevention Initiative, I am committed to advancing the organization’s mission with excellence, integrity, and compassionate service.`
-    },
-    {
-      name: 'Rejoice Joel-Samuel (Esq)',
-      role: 'Legal/Office Administrator',
-      image: '/staff/rejoice.jpeg',
-      bio: `I am a dedicated legal practitioner with a passion for human rights, criminal justice and committed to delivering impactful advocacy to enhance access to justice for survivors/victims, particularly for the Vulnerable, underprivileged and underrepresented communities.`
+As the Office Administrator of EmpowHer Choices Juvenile Abuse Prevention Initiative, I am committed to advancing the organization’s mission with excellence, integrity, and compassionate service.`
     }
   ]
 
